@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-30T21:10:00 IST" name="Suite" finished-at="2025-12-30T21:10:50 IST" duration-ms="50444">
+    <groups>
+    </groups>
+    <test started-at="2025-12-30T21:10:00 IST" name="Test" finished-at="2025-12-30T21:10:50 IST" duration-ms="50444">
+      <class name="testCases.TC_001RegistrationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_001RegistrationTests@e84a8e1]" started-at="2025-12-30T21:10:00 IST" name="setUp" finished-at="2025-12-30T21:10:12 IST" duration-ms="12059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegistrationTest()[pri:0, instance:testCases.TC_001RegistrationTests@e84a8e1]" started-at="2025-12-30T21:10:12 IST" name="RegistrationTest" finished-at="2025-12-30T21:10:25 IST" duration-ms="12391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001RegistrationTests@e84a8e1]" started-at="2025-12-30T21:10:25 IST" name="tearDown" finished-at="2025-12-30T21:10:25 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001RegistrationTests -->
+      <class name="testCases.TC_002LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_002LoginTest@35390ee3]" started-at="2025-12-30T21:10:25 IST" name="setUp" finished-at="2025-12-30T21:10:40 IST" duration-ms="14185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestLogin()[pri:0, instance:testCases.TC_002LoginTest@35390ee3]" started-at="2025-12-30T21:10:40 IST" name="TestLogin" finished-at="2025-12-30T21:10:50 IST" depends-on-methods="testCases.TC_001RegistrationTests.RegistrationTest" duration-ms="10307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002LoginTest@35390ee3]" started-at="2025-12-30T21:10:50 IST" name="tearDown" finished-at="2025-12-30T21:10:50 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
